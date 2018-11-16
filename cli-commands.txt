@@ -1,0 +1,14 @@
+/**
+*** Commands for Angular Project
+**/
+
+=: Update all packages of existing Angular project
+    ng update -all
+    
+=: Create New Angular Project with SCSS style extension
+    ng new my-project --style==scss
+    
+=: Update Existing project style extension
+    ng config schematics.@schematics/angular:component.styleext scss
+    
+=: Create component
