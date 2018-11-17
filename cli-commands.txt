@@ -11,4 +11,21 @@
 =: Update Existing project style extension
     ng config schematics.@schematics/angular:component.styleext scss
     
-=: Create component
+=: Download Bootstrap for Angular 7 Project
+    npm install bootstrap           // This will install latest bootstrap
+    npm install bootstrap@3.3.7     // This will install bootstrap 3
+    
+    NOTE: Don't forget to declare the bootstrap in angular.json
+    
+    "styles" : [
+        "node_modules/bootstrap/..."
+        ]
+        
+    ~In case you need to use bootstrap Javascript Component like tab, modal, accordian etc so you have to install the
+     "ngx-bootstrap" angular wrapper library:
+     
+     npm install ngx-bootstrap --save  // This will install Angular Wrapper Library
+     
+    ~In case you want to install Bootstrap and ngx-bootstrap at the same time when you create your Angular CLI project:
+    
+     npm install bootstrap ngx-bootstrap --save
