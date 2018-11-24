@@ -1,0 +1,20 @@
+/*****
+** CLI commands for Progressive Web Apps (PWA) **
+*****/
+
+First build the Project with
+
+=: ng build --prod
+ After use of this command a folder name 'dist' will be created under the project like i.e 'dist/project-name'
+ The production will be available from this folder. We can use a tool like http-server on this folder by
+ 
+=: npm i -g http-server
+
+  You can then run this server by..
+  
+=: cd dist/project-name
+=: http-server -o
+
+Now the PWA will be available on http://127.0.0.1:8080/
+To check the PWA in chrome open the above link. After that open the 'Developers Tool'
+Audits>> 'Check th progessive web app' and press run audits button
