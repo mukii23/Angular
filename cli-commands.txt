@@ -29,3 +29,12 @@
     ~In case you want to install Bootstrap and ngx-bootstrap at the same time when you create your Angular CLI project:
     
      npm install bootstrap ngx-bootstrap --save
+     
+=: Add 'Material' to your Angular project
+
+    ng add @angular/material /***For Angular 6 CLI Project
+    npm install --save @angular/material @angular/cdk @angular/animations
+    
+=: Install all packages according to Angular doc
+
+    npm install --save @angular/material @angular/cdk @angular/animations
